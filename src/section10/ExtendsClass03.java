@@ -28,9 +28,9 @@ public class ExtendsClass03 {
 	public static void main(String[] args) {
 		Car car = new Car();
  		car.model = "제네시스 GV80";
-// 		car.color = "black";   // protected 다른패키지 접근불가
-// 		car.year = 2023;	   // default 다른패키지 접근불가
-// 		car.brand = "Hyundai"; // private 다른클래스 접근불가
+// 		car.color = "black";   // protected 다른 패키지 접근불가
+// 		car.year = 2023;	   // default 다른 패키지 접근불가
+// 		car.brand = "Hyundai"; // private 다른 클래스 접근불가
  		
  		car.getInfo();
  		
